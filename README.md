@@ -68,6 +68,6 @@ These are just a few suggestions based on the provided HTML structure. The speci
 
 - Kerlis: all products, All category, products, Blog
 
-- Youssef: my account, login, register, all products
+- Youssef: my account, login, register, view products
 
 - Karim:
