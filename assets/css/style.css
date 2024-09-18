@@ -485,7 +485,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .header-main {
   padding: 20px 0;
-  border-bottom: 1px solid var(--cultured);
+  border-bottom: 1px solid var(--white);
 }
 
 .header-logo {
