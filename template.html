@@ -123,48 +123,111 @@
       </div>
 
       <nav class="desktop-navigation-menu">
-        <!-- Add navigation menu content here -->
+        <div class="container">
+          <ul class="desktop-menu-category-list">
+            <li class="menu-category">
+              <a href="#" class="menu-title">Home</a>
+            </li>
+            <li class="menu-category">
+              <a href="#" class="menu-title">Categories</a>
+            </li>
+            <li class="menu-category">
+              <a href="#" class="menu-title">Products</a>
+            </li>
+            <li class="menu-category">
+              <a href="#" class="menu-title">About Us</a>
+            </li>
+            <li class="menu-category">
+              <a href="#" class="menu-title">Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
 
       <div class="mobile-bottom-navigation">
-        <!-- Add mobile bottom navigation content here -->
+        <button class="action-btn" data-mobile-menu-open-btn>
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+        <button class="action-btn">
+          <ion-icon name="bag-handle-outline"></ion-icon>
+          <span class="count">0</span>
+        </button>
+        <button class="action-btn">
+          <ion-icon name="home-outline"></ion-icon>
+        </button>
+        <button class="action-btn">
+          <ion-icon name="heart-outline"></ion-icon>
+          <span class="count">0</span>
+        </button>
+        <button class="action-btn" data-mobile-menu-open-btn>
+          <ion-icon name="grid-outline"></ion-icon>
+        </button>
       </div>
 
       <nav class="mobile-navigation-menu has-scrollbar" data-mobile-menu>
-        <!-- Add mobile navigation menu content here -->
+        <div class="menu-top">
+          <h2 class="menu-title">Menu</h2>
+          <button class="menu-close-btn" data-mobile-menu-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+        <ul class="mobile-menu-category-list">
+          <li class="menu-category">
+            <a href="#" class="menu-title">Home</a>
+          </li>
+          <li class="menu-category">
+            <a href="#" class="menu-title">Categories</a>
+          </li>
+          <li class="menu-category">
+            <a href="#" class="menu-title">Products</a>
+          </li>
+          <li class="menu-category">
+            <a href="#" class="menu-title">About Us</a>
+          </li>
+          <li class="menu-category">
+            <a href="#" class="menu-title">Contact</a>
+          </li>
+        </ul>
       </nav>
     </header>
 
     <main>
-      <!-- Add main content here -->
+      <div class="container">
+        <article>
+          <header>
+            <h1>Welcome to Our Template Page</h1>
+          </header>
+          <section>
+            <h2>About Us</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
+              dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed
+              auctor neque eu tellus rhoncus ut eleifend nibh porttitor.
+            </p>
+          </section>
+          <section>
+            <h2>Our Services</h2>
+            <ul>
+              <li>Lorem ipsum dolor sit amet</li>
+              <li>Consectetur adipiscing elit</li>
+              <li>Nullam in dui mauris</li>
+              <li>Vivamus hendrerit arcu sed erat</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Contact Us</h2>
+            <p>
+              Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut
+              in nulla enim. Phasellus molestie magna non est bibendum non
+              venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.
+            </p>
+          </section>
+        </article>
+      </div>
     </main>
 
     <!-- Footer -->
-    <footer>
-      <div class="footer-category">
-        <!-- Add footer category content here -->
-      </div>
-
-      <div class="footer-nav">
-        <div class="container">
-          <!-- Add footer navigation content here -->
-        </div>
-      </div>
-
-      <div class="footer-bottom">
-        <div class="container">
-          <img
-            src="./assets/images/payment.png"
-            alt="payment method"
-            class="payment-img"
-          />
-
-          <p class="copyright">
-            Copyright &copy; <a href="#">Amazon</a> all rights reserved.
-          </p>
-        </div>
-      </div>
-    </footer>
+    <footer></footer>
 
     <!-- custom js link -->
     <script src="./assets/js/script.js"></script>
