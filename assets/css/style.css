@@ -58,6 +58,44 @@
 
   --transition-timing: 0.2s ease;
 }
+.darkmode{
+  --spanish-gray: hsl(0, 0%, 60%);
+  --sonic-silver: hsl(0, 0%, 47%);
+  --eerie-black: white;
+  --salmon-pink: white;
+  --sandy-brown: hsl(29, 90%, 65%);
+  --bittersweet: hsl(0, 100%, 70%);
+  --ocean-green: hsl(152, 51%, 52%);
+  --davys-gray: white;
+  --cultured: white;
+  --white: #101425;
+  --white: #2a2a40;
+  --onyx: hsl(0, 0%, 27%);
+}
+#theme-switch{
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+ 
+}
+#theme-switch svg{
+  fill: var(--onyx);
+}
+#theme-switch svg:last-child{
+  display: none;
+}
+.darkmode #theme-switch svg:first-child{
+  display: none;
+}
+.darkmode #theme-switch svg:last-child{
+  display: block;
+}
 
 /*-----------------------------------*\
   #RESET
@@ -447,7 +485,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .header-main {
   padding: 20px 0;
-  border-bottom: 1px solid var(--cultured);
+  border-bottom: 1px solid var(--white);
 }
 
 .header-logo {
@@ -619,16 +657,16 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .content::before {
   left: 0;
-  background: linear-gradient(to left, transparent, white);
+  background: linear-gradient(to left, transparent, var(--white));
 }
 .content::after {
   right: 0;
-  background: linear-gradient(to right, transparent, white);
+  background: linear-gradient(to right, transparent, var(--white));
 }
 .content {
   overflow: hidden;
   padding: 25px 0;
-  background: white;
+  background: var(--white);
   white-space: nowrap;
   display: flex;
   /* flex-direction: row-reverse; if u want to make it go right and also change translateX to 100% */
@@ -1895,7 +1933,7 @@ footer {
   .header-top {
     display: block;
     padding: 10px 0;
-    border-bottom: 1px solid var(--cultured);
+    border-bottom: 1px solid var(--white);
   }
 
   .header-social-container,
@@ -2140,7 +2178,7 @@ footer {
    */
 
   .container {
-    max-width: 750px;
+    max-width: 1920px;
     margin: auto;
   }
 
