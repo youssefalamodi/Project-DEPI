@@ -527,12 +527,12 @@ body::-webkit-scrollbar-thumb:hover {
 
 .header-search-container .search-field {
   font-size: var(--fs-7);
-  color: var(--white);
+  /* color: var(--white); to fix invisible placeholder on light mode*/
   padding: 10px 15px;
   padding-right: 50px;
   border: 1px solid var(--cultured);
   border-radius: var(--border-radius-md);
-  outline: none; /* to fix yellow outline */
+ 
 }
 
 .search-field::-webkit-search-cancel-button {
