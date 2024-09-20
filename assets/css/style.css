@@ -2378,10 +2378,10 @@ footer {
 
   .header-social-container .social-link {
     padding: 5px;
-    background: hsl(0, 0%, 95%);
+    background: var(--white);
     border-radius: var(--border-radius-sm);
     color: var(--sonic-silver);
-    transition: var(--transition-timing);
+    /* transition: var(--transition-timing); useless transition imo */
   }
 
   .header-social-container .social-link:hover {
