@@ -11,10 +11,28 @@ const disableDarkMode = () => {
     localStorage.setItem('darkmode', null)
 }
 
-if (darkmode === "active") enableDarkMode();
+if (darkmode === "active"){ enableDarkMode();
+ document.getElementById("amazon-logo").src = "./assets/images/logo/Untitled.png";
+}
+else{
+    document.getElementById("amazon-logo").src = "./assets/images/logo/Amazon_logo.svg";
+}
+;
+
 
 
 themeSwitch.addEventListener("click", () => {
     darkmode = localStorage.getItem('darkmode');
-    darkmode !== "active" ? enableDarkMode() : disableDarkMode();
+    // darkmode !== "active" ? enableDarkMode() : disableDarkMode();
+    if(darkmode !== "active")
+    {
+        enableDarkMode();
+        document.getElementById("amazon-logo").src = "./assets/images/logo/Untitled.png";
+    }
+    else
+    {
+    disableDarkMode();
+    document.getElementById("amazon-logo").src = "./assets/images/logo/Amazon_logo.svg";
+    }
+    
 })
