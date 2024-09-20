@@ -104,6 +104,13 @@
   display: block;
 }
 
+ion-icon{
+  color: var(--eerie-black);
+}
+.icon-inner, .ionicon, svg {
+stroke: tomato;
+}
+
 /*-----------------------------------*\
   #RESET
 \*-----------------------------------*/
@@ -129,7 +136,9 @@ button {
   font: inherit;
   border: none;
   cursor: pointer;
+  
 }
+
 
 img,
 ion-icon,
@@ -472,7 +481,7 @@ body::-webkit-scrollbar-thumb:hover {
 .toast-title {
   font-size: var(--fs-7);
   font-weight: var(--weight-500);
-  color: var(--onyx);
+  color: var(--eerie-black);
 }
 
 .toast-meta {
@@ -982,7 +991,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .sidebar-title {
-  color: var(--onyx);
+  color: var(--eerie-black);
   font-size: var(--fs-5);
   text-transform: uppercase;
   letter-spacing: 0.8px;
@@ -1015,7 +1024,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .sidebar .menu-title {
   font-size: var(--fs-5);
-  color: var(--sonic-silver);
+  color: var(--salmon-pink);
   font-weight: var(--weight-500);
 }
 
@@ -1069,7 +1078,7 @@ body::-webkit-scrollbar-thumb:hover {
 .sidebar .showcase-heading {
   font-size: var(--fs-5);
   font-weight: var(--weight-600);
-  color: var(--onyx);
+  color: var(--eerie-black);
   text-transform: uppercase;
   letter-spacing: 0.8px;
   margin-bottom: 15px;
@@ -1094,7 +1103,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .sidebar .showcase-title {
-  color: var(--onyx);
+  color: var(--salmon-pink);
   font-size: var(--fs-7);
   font-weight: var(--weight-400);
   text-transform: capitalize;
@@ -1571,7 +1580,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .testimonial-title {
-  color: var(--onyx);
+  color: var(--eerie-black);
   font-size: var(--fs-7);
   margin-bottom: 15px;
 }
@@ -1584,7 +1593,7 @@ body::-webkit-scrollbar-thumb:hover {
 .testimonial-desc {
   max-width: 70%;
   margin: auto;
-  color: var(--sonic-silver);
+  color: var(--bittersweet);
   font-size: var(--fs-7);
 }
 
@@ -1689,7 +1698,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .service-title {
-  color: var(--sonic-silver);
+  color: var(--eerie-black);
   font-size: var(--fs-7);
   font-weight: var(--weight-600);
   text-transform: capitalize;
@@ -1697,7 +1706,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .service-desc {
-  color: var(--sonic-silver);
+  color: var(--bittersweet);
   font-size: var(--fs-9);
 }
 
