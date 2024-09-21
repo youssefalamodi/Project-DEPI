@@ -1880,7 +1880,7 @@ footer {
 
 .footer-category-link {
   position: relative;
-  color: var(--salmon-pink);
+  color: var(--sonic-silver);
   font-size: var(--fs-7);
   text-transform: capitalize;
   transition: var(--transition-timing);
@@ -1916,7 +1916,7 @@ footer {
 
 .footer-nav .nav-title {
   position: relative;
-  color: var(--white);
+  color: var(--salmon-pink);
   font-size: var(--fs-7);
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -1940,7 +1940,7 @@ footer {
 .footer-nav-link,
 .footer-nav-item .content {
   width: max-content;
-  color: var(--salmon-pink);
+  color: var(--sonic-silver);
   font-size: var(--fs-7);
   text-transform: capitalize;
   transition: var(--transition-timing);
