@@ -1882,7 +1882,7 @@ footer {
 }
 
 .category-box-title {
-  color: var(--spanish-gray);
+  color: var(--salmon-pink);
   font-size: var(--fs-8);
   font-weight: var(--weight-600);
   text-transform: uppercase;
@@ -1890,7 +1890,7 @@ footer {
 
 .footer-category-link {
   position: relative;
-  color: var(--sonic-silver);
+  color: var(--salmon-pink);
   font-size: var(--fs-7);
   text-transform: capitalize;
   transition: var(--transition-timing);
