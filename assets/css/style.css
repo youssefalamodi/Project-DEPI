@@ -356,6 +356,8 @@ body::-webkit-scrollbar-thumb:hover {
 .newsletter {
   padding: 50px 30px;
   text-align: center;
+  border: 2px solid var(--salmon-pink);
+  border-radius: var(--border-radius-md);
 }
 
 .newsletter-header {
@@ -414,6 +416,7 @@ body::-webkit-scrollbar-thumb:hover {
   align-items: flex-start;
   gap: 15px;
   padding: 15px;
+  border: 2px solid var(--salmon-pink);
   border-radius: var(--border-radius-md);
   box-shadow: 0 5px 20px hsla(0, 0%, 0%, 0.15);
   transform: translateX(calc(-100% - 40px));
@@ -1947,7 +1950,7 @@ footer {
 .footer-nav-link,
 .footer-nav-item .content {
   width: max-content;
-  color: var(--sonic-silver);
+  color: var(--salmon-pink);
   font-size: var(--fs-7);
   text-transform: capitalize;
   transition: var(--transition-timing);
