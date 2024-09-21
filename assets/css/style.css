@@ -59,7 +59,7 @@
 
   --transition-timing: 0.2s ease;
 }
-.darkmode{
+.darkmode {
   --spanish-gray: hsl(0, 0%, 60%);
   --sonic-silver: hsl(0, 0%, 47%);
   --eerie-black: white;
@@ -68,16 +68,15 @@
   --bittersweet: hsl(0, 100%, 70%);
   --ocean-green: hsl(152, 51%, 52%);
   --davys-gray: white;
-  --cultured: #455d7a ;
+  --cultured: #455d7a;
   --white: #2a2a40;
   --onyx: white;
-  --first-color: #233142; 
-  --second-color: #455d7a; 
-  --third-color: #f95959; 
+  --first-color: #233142;
+  --second-color: #455d7a;
+  --third-color: #f95959;
   --fourth-color: #e3e3e3;
-
 }
-#theme-switch{
+#theme-switch {
   height: 40px;
   width: 40px;
   padding: 0;
@@ -89,27 +88,29 @@
   float: right;
   outline: none;
 }
-#theme-switch:hover{
+#theme-switch:hover {
   background-color: var(--bittersweet);
 }
-#theme-switch svg{
+#theme-switch svg {
   fill: var(--white);
 }
-#theme-switch svg:last-child{
+#theme-switch svg:last-child {
   display: none;
 }
-.darkmode #theme-switch svg:first-child{
+.darkmode #theme-switch svg:first-child {
   display: none;
 }
-.darkmode #theme-switch svg:last-child{
+.darkmode #theme-switch svg:last-child {
   display: block;
 }
 
-ion-icon{
+ion-icon {
   color: var(--eerie-black);
 }
-.icon-inner, .ionicon, svg {
-stroke: tomato;
+.icon-inner,
+.ionicon,
+svg {
+  stroke: tomato;
 }
 
 /*-----------------------------------*\
@@ -137,9 +138,7 @@ button {
   font: inherit;
   border: none;
   cursor: pointer;
-  
 }
-
 
 img,
 ion-icon,
@@ -168,7 +167,7 @@ input::placeholder {
 }
 
 body {
-  background: var(--white) ;
+  background: var(--white);
 }
 
 /**
@@ -518,11 +517,11 @@ body::-webkit-scrollbar-thumb:hover {
   margin: auto;
   transition: 5s linear infinite;
 }
-.darkmode .header-logo img{
-  color: white; 
+.darkmode .header-logo img {
+  color: white;
 }
-.amazon-logo{
-  transition: .5s ease;
+.amazon-logo {
+  transition: 0.5s ease;
 }
 
 .header-search-container {
@@ -536,7 +535,6 @@ body::-webkit-scrollbar-thumb:hover {
   padding-right: 50px;
   border: 1px solid var(--cultured);
   border-radius: var(--border-radius-md);
- 
 }
 
 .search-field::-webkit-search-cancel-button {
@@ -554,13 +552,11 @@ body::-webkit-scrollbar-thumb:hover {
   padding: 8px 15px;
   border-radius: var(--border-radius-md);
   transition: color var(--transition-timing);
-  
 }
 
 .search-btn:hover {
   color: var(--salmon-pink);
 }
-
 
 .mobile-bottom-navigation {
   background: var(--white);
@@ -705,7 +701,6 @@ body::-webkit-scrollbar-thumb:hover {
   /* flex-direction: row-reverse; if u want to make it go right and also change translateX to 100% */
   position: relative;
   height: 3px;
-  
 }
 .content-slide {
   display: flex;
@@ -718,11 +713,10 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 /* CART CONTENT TABLE */
-.bigcontainer{
-  transition: transform
-  .5s;
+.bigcontainer {
+  transition: transform 0.5s;
 }
-.cartTab{
+.cartTab {
   width: 400px;
   background-color: #353432;
   color: #eee;
@@ -731,43 +725,43 @@ body::-webkit-scrollbar-thumb:hover {
   display: grid;
   grid-template-rows: 70px 1fr 70px;
   z-index: 6;
-  transition: .5s;
+  transition: 0.5s;
 }
-.showCart .cartTab{
+.showCart .cartTab {
   inset: 0 0 0 auto;
 }
 /* .showCart .bigcontainer{
 transform: translate(-250px);
 }  bugs the entire website so idk how to fix*/
-.cartTab h1{
+.cartTab h1 {
   padding: 20px;
   margin: 0;
   font-weight: 300;
 }
-.cartTab .btn{
+.cartTab .btn {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-.cartTab .btn button{
+.cartTab .btn button {
   background-color: #e8bc0e;
   border: none;
   font-weight: 500;
   cursor: pointer;
 }
-.cartTab .btn .close{
+.cartTab .btn .close {
   background: #eee;
 }
-.cartTab .listCart .item img{
+.cartTab .listCart .item img {
   width: 100%;
 }
-.cartTab .listCart .item{
+.cartTab .listCart .item {
   display: grid;
   grid-template-columns: 70px 150px 50px 1fr;
   gap: 10px;
   text-align: center;
   align-items: center;
 }
-.listCart .quantity span{
+.listCart .quantity span {
   display: inline-block;
   width: 25px;
   height: 25px;
@@ -776,20 +770,16 @@ transform: translate(-250px);
   border-radius: 50%;
   cursor: pointer;
 }
-.listCart .quantity span:nth-child(2){
+.listCart .quantity span:nth-child(2) {
   background-color: transparent;
   color: #eee;
 }
-.listCart .item:nth-child(even){
+.listCart .item:nth-child(even) {
   background-color: #eee1;
 }
-.listCart{
+.listCart {
   overflow: auto;
 }
-
-
-
-
 
 .accordion-menu > div {
   font-size: 14px;
@@ -882,7 +872,7 @@ transform: translate(-250px);
   padding: 10px;
   border-radius: var(--border-radius-md);
 }
-.menu-social-container .social-link:hover{
+.menu-social-container .social-link:hover {
   background-color: var(--bittersweet);
 }
 
