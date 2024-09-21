@@ -69,7 +69,7 @@
   --davys-gray: white;
   --cultured: #455d7a ;
   --white: #2a2a40;
-  --onyx: hsl(0, 0%, 27%);
+  --onyx: gold;
   --first-color: #233142; 
   --second-color: #455d7a; 
   --third-color: #f95959; 
@@ -81,7 +81,7 @@
   width: 40px;
   padding: 0;
   border-radius: 50%;
-  background-color: var(--white);
+  background-color: var(--eerie-black);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -92,7 +92,7 @@
   background-color: var(--bittersweet);
 }
 #theme-switch svg{
-  fill: var(--onyx);
+  fill: var(--white);
 }
 #theme-switch svg:last-child{
   display: none;
