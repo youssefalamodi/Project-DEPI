@@ -2295,14 +2295,17 @@ footer {
     align-items: center;
     max-width: 750px;
     width: fit-content;
+    border: 2px solid var(--salmon-pink);
   }
 
   .newsletter-img {
     display: block;
+    
   }
 
   .newsletter {
     text-align: left;
+    border: none;
   }
 
   /**
