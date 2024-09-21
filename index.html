@@ -30,9 +30,11 @@
       rel="stylesheet"
     />
     <script src="assets/js/darkmode.js" defer></script>
+    <script src="assets/js/cart.js" defer></script>
   </head>
 
   <body>
+ <div class="bigcontainer">
     <div class="overlay" data-overlay></div>
 
     <!--
@@ -268,13 +270,43 @@
               <span class="count">0</span>
             </button>
 
-            <button class="action-btn">
+            <button class="action-btn cart">
               <ion-icon name="bag-handle-outline"></ion-icon>
               <span class="count">0</span>
             </button>
           </div>
         </div>
       </div>
+
+      <!-- 
+        CART TABLE CONTENT
+       -->
+        <div class="cartTab">
+          <h1>Shopping Cart</h1>
+          <div class="listCart">
+            <div class="item">
+              <div class="image">
+                <img src="assets/images/products/jacket-3.jpg" alt="">
+              </div>
+              <div class="name">
+                Mens Winter Leathers Jacket
+              </div>
+              <div class="totalprice">
+                $48.00
+              </div>
+              <div class="quantity">
+                <span class="minus"><</span>
+                <span>1</span>
+                <span class="plus">></span>
+              </div>
+  
+            </div>
+          </div>
+          <div class="btn">
+            <button class="close">CLOSE</button>
+            <button class="checkout">CHECK OUT</button>
+          </div>
+        </div>
 
       <nav class="desktop-navigation-menu">
         <div class="container">
@@ -541,10 +573,10 @@
           <ion-icon name="menu-outline"></ion-icon>
         </button>
 
-        <button class="action-btn">
+        <button class="action-btn cart">
           <ion-icon name="bag-handle-outline"></ion-icon>
 
-          <span class="count">0</span>
+          <span  class="count cartqtn">0</span>
         </button>
 
         <button class="action-btn">
@@ -3672,5 +3704,6 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+  </div>
   </body>
 </html>

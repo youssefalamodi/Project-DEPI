@@ -22,6 +22,7 @@
   --cultured: hsl(0, 0%, 93%);
   --white: hsl(0, 100%, 100%);
   --onyx: hsl(0, 0%, 27%);
+  --third-color: #f95959;
 
   /**
    * typography
@@ -713,6 +714,80 @@ body::-webkit-scrollbar-thumb:hover {
   margin: 0 40px;
 }
 
+/* CART CONTENT TABLE */
+.bigcontainer{
+  transition: transform
+  .5s;
+}
+.cartTab{
+  width: 400px;
+  background-color: #353432;
+  color: #eee;
+  position: fixed;
+  inset: 0 -400px 0 auto;
+  display: grid;
+  grid-template-rows: 70px 1fr 70px;
+  z-index: 6;
+  transition: .5s;
+}
+.showCart .cartTab{
+  inset: 0 0 0 auto;
+}
+/* .showCart .bigcontainer{
+transform: translate(-250px);
+}  bugs the entire website so idk how to fix*/
+.cartTab h1{
+  padding: 20px;
+  margin: 0;
+  font-weight: 300;
+}
+.cartTab .btn{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.cartTab .btn button{
+  background-color: #e8bc0e;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+.cartTab .btn .close{
+  background: #eee;
+}
+.cartTab .listCart .item img{
+  width: 100%;
+}
+.cartTab .listCart .item{
+  display: grid;
+  grid-template-columns: 70px 150px 50px 1fr;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+}
+.listCart .quantity span{
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: #eee;
+  color: #555;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.listCart .quantity span:nth-child(2){
+  background-color: transparent;
+  color: #eee;
+}
+.listCart .item:nth-child(even){
+  background-color: #eee1;
+}
+.listCart{
+  overflow: auto;
+}
+
+
+
+
+
 .accordion-menu > div {
   font-size: 14px;
 }
@@ -739,7 +814,7 @@ body::-webkit-scrollbar-thumb:hover {
 .submenu-title {
   padding: 6px 0;
   font-size: var(--fs-6);
-  color: var(--sonic-silver);
+  color: var(--third-color);
   font-weight: var(--weight-300);
 }
 
@@ -798,11 +873,14 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .menu-social-container .social-link {
-  background: var(--cultured);
+  background: var(--white);
   color: var(--eerie-black);
   font-size: 20px;
   padding: 10px;
   border-radius: var(--border-radius-md);
+}
+.menu-social-container .social-link:hover{
+  background-color: var(--bittersweet);
 }
 
 /*-----------------------------------*\
@@ -1497,7 +1575,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .product-grid .btn-action:hover {
-  background: var(--eerie-black);
+  background: var(--third-color);
   color: var(--white);
   border-color: var(--eerie-black);
 }
