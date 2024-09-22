@@ -41,10 +41,10 @@ darkswitch.addEventListener("click", () => {
   if (darkmode !== "active") {
     enableDarkMode();
     document.getElementById("amazon-logo").src =
-      "./assets/images/logo/Untitled.png";
+      "./assets/images/logo/logo4.png";
   } else {
     disableDarkMode();
     document.getElementById("amazon-logo").src =
-      "./assets/images/logo/Amazon_logo.svg";
+      "./assets/images/logo/logo4.png";
   }
 });
