@@ -16,22 +16,20 @@ const disableDarkMode = () => {
 
 if (darkmode === "active") {
   enableDarkMode();
-  document.getElementById("amazon-logo").src =
-    "./assets/images/logo/logo4.png";
+  document.getElementById("elite-logo").src = "./assets/images/logo/logo4.png";
 } else {
-  document.getElementById("amazon-logo").src =
-    "./assets/images/logo/logo4.png";
+  document.getElementById("elite-logo").src = "./assets/images/logo/logo4.png";
 }
 themeSwitch.addEventListener("click", () => {
   darkmode = localStorage.getItem("darkmode");
   // darkmode !== "active" ? enableDarkMode() : disableDarkMode();
   if (darkmode !== "active") {
     enableDarkMode();
-    document.getElementById("amazon-logo").src =
+    document.getElementById("elite-logo").src =
       "./assets/images/logo/logo4.png";
   } else {
     disableDarkMode();
-    document.getElementById("amazon-logo").src =
+    document.getElementById("elite-logo").src =
       "./assets/images/logo/logo4.png";
   }
 });
@@ -40,11 +38,11 @@ darkswitch.addEventListener("click", () => {
   // darkmode !== "active" ? enableDarkMode() : disableDarkMode();
   if (darkmode !== "active") {
     enableDarkMode();
-    document.getElementById("amazon-logo").src =
+    document.getElementById("elite-logo").src =
       "./assets/images/logo/Untitled.png";
   } else {
     disableDarkMode();
-    document.getElementById("amazon-logo").src =
-      "./assets/images/logo/Amazon_logo.svg";
+    document.getElementById("elite-logo").src =
+      "./assets/images/logo/logo4.png";
   }
 });
