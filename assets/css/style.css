@@ -513,14 +513,14 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .header-logo img {
-  /* content: url('./assets/images/logo/Amazon_logo.svg'); */
+  /* content: url('./assets/images/logo/elite_logo.svg'); */
   margin: auto;
   transition: 5s linear infinite;
 }
 .darkmode .header-logo img {
   color: white;
 }
-.amazon-logo {
+.elite-logo {
   transition: 0.5s ease;
 }
 
