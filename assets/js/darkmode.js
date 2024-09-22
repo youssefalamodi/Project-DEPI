@@ -39,7 +39,7 @@ darkswitch.addEventListener("click", () => {
   if (darkmode !== "active") {
     enableDarkMode();
     document.getElementById("elite-logo").src =
-      "./assets/images/logo/Untitled.png";
+      "./assets/images/logo/logo4.png";
   } else {
     disableDarkMode();
     document.getElementById("elite-logo").src =
