@@ -2867,6 +2867,12 @@ footer {
   }
 }
 
+/* Fixed image for women's banner */
+.fiximg{
+  margin-top: 41%;
+}
+
+
 /**
  * responsive larger than 1200px screen
  */
@@ -2979,7 +2985,12 @@ footer {
   .footer-nav {
     padding-bottom: 50px;
   }
+  .fiximg{
+    margin-top: 32.3%;
+  }
+  
 }
+/* Fixed image for women's banner */
 
 /**
  * responsive larger than 1400px screen
@@ -3014,4 +3025,10 @@ footer {
     left: 110px;
     max-width: 460px;
   }
+  /* Fixed image for women's banner */
+.fiximg{
+  margin-top: 28.8%;
 }
+
+}
+
