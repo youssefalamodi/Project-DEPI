@@ -788,8 +788,8 @@ transform: translate(-250px);
 .dropdown-content{
   display: none;
   position: absolute;
-  left: 20px;
-  bottom: 1px;
+  left: -55px;
+  top: 45px;
   background-color: var(--bittersweet);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
